@@ -1,51 +1,51 @@
 # AngularDashboard
 
-Colección de plantillas y ejemplos de *dashboards* construidos con [Angular](https://angular.dev). El repositorio reúne tres subproyectos —cada uno incluido como un submódulo de Git— con distintos enfoques para crear paneles de administración:
+A collection of dashboard templates and examples built with [Angular](https://angular.dev). This repository brings together three subprojects — each included as a Git submodule — showcasing different approaches to building admin panels:
 
-| Subproyecto | Descripción |
+| Subproject | Description |
 |---|---|
-| `SemanticUI-Admin-Template` | Plantilla de panel de administración construida con [Semantic UI](https://semantic-ui.com). |
-| `angular-charts` | Ejemplos de gráficas y visualización de datos en Angular. |
-| `angular-material-dashboard` | Dashboard construido con [Angular Material](https://material.angular.io). |
+| `SemanticUI-Admin-Template` | Admin panel template built with [Semantic UI](https://semantic-ui.com). |
+| `angular-charts` | Chart and data-visualization examples in Angular. |
+| `angular-material-dashboard` | Dashboard built with [Angular Material](https://material.angular.io). |
 
-## Requisitos
+## Requirements
 
-- [Node.js](https://nodejs.org) (se recomienda una versión LTS)
-- npm (incluido con Node.js)
+- [Node.js](https://nodejs.org) (an LTS version is recommended)
+- npm (bundled with Node.js)
 - [Angular CLI](https://angular.dev/tools/cli):
 
   ```bash
   npm install -g @angular/cli
   ```
 
-## Uso
+## Usage
 
-1. Clona el repositorio:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/psehgaft/AngularDashboard.git
    cd AngularDashboard
    ```
 
-2. Entra al subproyecto que quieras explorar e instala sus dependencias:
+2. Enter the subproject you want to explore and install its dependencies:
 
    ```bash
    cd angular-material-dashboard
    npm install
    ```
 
-3. Levanta el servidor de desarrollo:
+3. Start the development server:
 
    ```bash
    ng serve
    ```
 
-   y abre <http://localhost:4200> en tu navegador.
+   and open <http://localhost:4200> in your browser.
 
-## Nota sobre los subproyectos
+## Note on the subprojects
 
-Cada subproyecto está fijado como un *gitlink* (referencia a un commit de su repositorio original) al commit que se muestra en la raíz del repositorio. El repositorio no incluye un archivo `.gitmodules`, por lo que las referencias no se inicializan automáticamente con `--recurse-submodules`.
+Each subproject is pinned as a *gitlink* (a reference to a commit in its original repository) at the commit shown in the repository root. The repository does not include a `.gitmodules` file, so the references are not initialized automatically with `--recurse-submodules`.
 
-## Licencia
+## License
 
-Este repositorio no declara una licencia explícita.
+This repository does not declare an explicit license.
